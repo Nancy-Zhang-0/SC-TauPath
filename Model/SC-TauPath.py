@@ -45,7 +45,7 @@ from sklearn.linear_model import Lasso, Ridge
 from sklearn.multioutput import MultiOutputRegressor
 
 try:
-    from quick_train_tau_mlp_gpu import (
+    from train_tau_mlp import (
         build_full_network_features,
         fit_ndm_global_params,
         ndm_predict_from_eig,
@@ -56,7 +56,7 @@ try:
         set_seed,
     )
 except ImportError:
-    from Model.quick_train_tau_mlp_gpu import (
+    from Model.train_tau_mlp import (
         build_full_network_features,
         fit_ndm_global_params,
         ndm_predict_from_eig,

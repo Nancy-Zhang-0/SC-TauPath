@@ -50,7 +50,7 @@ All reported metrics are **out-of-fold (OOF)**:
 pip install numpy scipy scikit-learn
 ```
 
-`SCTauPath.py` imports feature-building and NDM utilities from the companion module `quick_train_tau_mlp_gpu.py` (`build_full_network_features`, `ndm_precompute_eig`, `fit_ndm_global_params`, …). That module must be importable — either in the same directory or under `Model/`.
+`SCTauPath.py` imports feature-building and NDM utilities from the companion module `train_tau_mlp.py` (`build_full_network_features`, `ndm_precompute_eig`, `fit_ndm_global_params`, …). That module must be importable — either in the same directory or under `Model/`.
 
 ## Data
 
